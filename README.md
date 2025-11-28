@@ -23,7 +23,7 @@ This is intentionally written as **clean, modular Python**, so it can serve as a
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ```mermaid
 graph TD
@@ -37,4 +37,4 @@ graph TD
     H --> I[Top-K Relevant Chunks]
     I --> J[RAG Prompt Builder<br/>final context prompt]
     J --> K[(LLM of choice<br/>OpenAI / Azure / etc.)]
-# DeltaRAG-Lakehouse
+```
